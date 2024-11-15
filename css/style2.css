@@ -1,0 +1,228 @@
+*{ 
+    margin: 0;
+}
+
+
+/*--------------start logo ---------------*/
+
+.counter .header {
+    width: 100%;
+    height: 10vh;
+    /*background-color: gray;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom:10px;
+}
+
+
+.counter .header .logo {
+    width: 25%;
+    height: 100%;
+    /*background-color: aliceblue;*/
+    text-transform: capitalize;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/*------------------end logo ---------------*/
+
+/*---------------------start nav --------------*/
+
+.counter .header .nav {
+    width: 40%;
+    height: 100%;
+    /*background-color: black;*/
+}
+
+.counter .header .nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    
+}
+
+.counter .header .nav ul li{
+    text-align: right;
+}
+
+.counter .header .nav ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+/*--------------------end nav --------------*/
+
+/*-------------------------start body -------------*/
+
+.counter .body {
+    width: 100%;
+    height: 89vh;
+    background-color: peachpuff;
+    display: flex;
+    border-bottom: 5px solid ;
+}
+
+/*---------------------start text-----------------*/
+
+.counter .body .text {
+    width: 30%;
+    height: 80%;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.counter .body .text p {
+    padding-top: 10px;
+
+}
+
+.counter .body .text p samp {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.counter .body .text .button {
+    margin-top: 20px;
+}
+.counter .body .text button {
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: bold;
+    border: 20px 20px black;
+    padding: 10px;
+    background-color: pink;
+}
+
+/*------------------------end text ---------------*/
+
+/*----------------------start img -----------------*/
+
+.counter .body .img {
+    width: 48%;
+    height:100% ;
+    background-color: pink ;
+    background-image: url(../img/Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+/*--------------------end  img -----------------------*/ 
+/*--------------------end body----------------*/
+
+/*--------------------start body2 ------------------*/
+.counter .body2 {
+    width: 100%;
+    height: 98vh;
+}
+.counter .body2 .header2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 50px ;
+}
+
+.counter .body2 .icon {
+    width:60% ;
+    height: 200px;
+    margin-left: 280px;
+    display: flex;
+} 
+.counter .body2 .icon .icon2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.counter .body2 .icon .icon2 img {
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+}
+.counter .body2 .icon .icon2 p {
+    width: 200px;
+    height: 20px;
+    margin-top: 55px;
+}
+.counter .body2 .icon3 {
+    width:60% ;
+    height: 200px;
+    margin-left: 280px;
+    display: flex;
+}
+.counter .body2 .icon3 .icon4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.counter .body2 .icon3 .icon4 img {
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+}
+.counter .body2 .icon3 .icon4 p {
+    width: 200px;
+    height: 20px;
+    margin-top: 55px;
+    
+}
+/*-----------------start footer ------------*/
+.counter .footer  {
+    width: 500px;
+    height: 300px;
+    margin-left:450px;
+}
+.counter .footer p {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.counter .footer .button {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-top:30px ;
+    margin-left: 150px;
+}
+
+.counter .footer .button button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/*-----------------end footer ------------*/
+/*---------------------end bod2 -------------------*/
+
+/*----------------media--------------------*/
+
+@media ( max-width: 768px) {
+    .counter .header .logo  h1{
+       font-size: 22px;
+       font-weight: bold;
+    }
+    
+    .counter .header .nav {
+        width: 60%;
+}
+    .counter .body .text {
+        padding-top: 25px;
+}
+.counter .body2 .icon {
+    margin-left: 5px ;
+}
+.counter .body2 .icon3 {
+    margin-left: 5px;
+}
+.counter .footer {
+    margin-left: 150px;
+}
+}
